@@ -1,21 +1,21 @@
 # System Design
 
 The discipline of SD helps to tame the complexity and get the work done.SD aims to build systems that are 
-* Reliable : handles faults, failures, and errors
-* Effective : meet all user needs and business requirements
+* Reliable: handles faults, failures, and errors
+* Effective: meet all user needs and business requirements
 * Maintainable: are flexible and easy to scale up/down. The ability to add new features also comes under this
 
 ---
 
-In day-to-day SD works include
+In day-to-day SD work, include
 * Monitoring and Observability
 * Incident Response and Troubleshooting
 * Capacity management continuously evaluates traffic, storage, and scaling requirements to prevent bottlenecks
 * Performance tuning
-* Sytem evolution and Refactoring
+* System evolution and Refactoring
 * Operational automation
 
-Core topics in that build/help the design principles ....
+Core topics that build/help the design principles ....
 
 ## Abstraction
 
@@ -43,4 +43,6 @@ Overall, decomposition is a key principle that helps in organizing and managing 
 
 ## Generalization
 
-Helps us to reduce the amount of redundancy when solving the problem. Writing the method to reuse or inherting a class.
+Helps us reduce the amount of redundancy when solving the problem. Writing the method to reuse or inherit from a class.
+
+Get a high-level understanding of UML diagrams
