@@ -1,5 +1,7 @@
 # System Design
 
+`if you are already familiar with what SD is you can directly go to` [Design-Patterns](https://github.com/BHariKrishnaReddy/System-design/blob/main/Design-Patterns.md)
+
 The discipline of SD helps to tame the complexity and get the work done.SD aims to build systems that are 
 * Reliable: handles faults, failures, and errors
 * Effective: meet all user needs and business requirements
@@ -45,4 +47,5 @@ Overall, decomposition is a key principle that helps in organizing and managing 
 
 Helps us reduce the amount of redundancy when solving the problem. Writing the method to reuse or inherit from a class.
 
-Get a high-level understanding of UML diagrams
+Get a high-level understanding of UML diagrams.
+
