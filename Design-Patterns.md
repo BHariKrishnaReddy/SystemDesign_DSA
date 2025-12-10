@@ -1,4 +1,4 @@
-# Design Pattrens
+# Design Patterns
 
 What is a Design pattern?
 
@@ -256,3 +256,41 @@ Example Application
 
 # Behavioural Design Patterns
 
+## Template Method Patterns
+
+* Behavioral patterns define how objects interact and communicate to fulfill a specific purpose, similar to how employees in a company have defined roles.
+* These patterns help in organizing and structuring code to ensure effective collaboration among objects.
+
+Template Method Pattern
+
+* The template method pattern outlines a general algorithm's steps while allowing subclasses to implement specific details.
+
+Implementation in Java
+
+* The PastaDish superclass is abstract, containing a final template method called makeRecipe, which cannot be overridden by subclasses.
+* Subclasses like SpaghettiMeatballs and PenneAlfredo implement their specific methods, ensuring consistency and reducing code redundancy.
+
+## Chain of Responsibility Pattern
+
+* The pattern consists of a chain of objects that handle requests, similar to how a patient is referred through various specialists.
+* Each handler attempts to process the request; if it cannot, it passes the request to the next handler in the chain.
+
+Example and Application
+
+* An example is provided where tools are tested one by one to find the right one for a task, mirroring how handlers work in the pattern.
+* The pattern is useful in scenarios like email filtering, where multiple filters check if a message meets certain criteria.
+
+Design Considerations
+
+* A potential issue arises if a handler fails to pass the request to the next handler, which can be mitigated by using the Template Pattern to ensure consistent handling.
+* The Chain of Responsibility helps decouple the sender from the receiver, allowing for flexible request handling without the sender needing to know which handler will process the request.
+
+## State Pattern
+
+* The state pattern allows objects to choose behaviors based on their current state, changing behavior when the state changes.
+* It is particularly useful when an object's behavior needs to change at runtime depending on its state.
+
+Implementation in Code
+
+* The implementation involves creating state objects and a vending machine class that tracks the current state.
+* The state pattern simplifies code by delegating behavior to state objects, reducing the need for complex conditionals.
