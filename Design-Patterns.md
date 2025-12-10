@@ -1,3 +1,5 @@
+# Design Pattrens
+
 What is a Design pattern?
 
 A design pattern in software development is a general, reusable solution to a commonly occurring problem within a given context in software design. It is not a finished design that can be transformed directly into code, but rather a template or guideline that can be adapted to solve specific design issues.
@@ -250,4 +252,7 @@ Implementation Steps
 
 Example Application
 
-    The pattern can be applied to web pages, where a basic page can be enhanced with various behaviors (like authorization) without creating multiple subclasses for every combination of features. This reduces complexity and improves maintainability.
+* The pattern can be applied to web pages, where a basic page can be enhanced with various behaviors (like authorization) without creating multiple subclasses for every combination of features. This reduces complexity and improves maintainability.
+
+# Behavioural Design Patterns
+
