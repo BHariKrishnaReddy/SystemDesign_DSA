@@ -32,3 +32,7 @@
 | Are there **choices / overlapping subproblems**? | Dynamic Programming | Graph checks |
 | Is the problem about **connections / traversal**? | BFS / DFS | Bit logic |
 | Is the problem about **bits / XOR / subsets**? | Bit Manipulation | Re-evaluate problem |
+
+
+Check Out Pattren based Problems
+1. [Sliding Window](https://github.com/BHariKrishnaReddy/SystemDesign_DSA/tree/main/DSA_patterns/SlidingWindow)

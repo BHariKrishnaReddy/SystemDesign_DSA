@@ -78,7 +78,7 @@ for right in range(len(arr)):                        //right end of window
 
 | Checkbox | Level | Question                                                                                  | Topics Covered                                  |
 |----------|--------|--------------------------------------------------------------------------------------------|--------------------------------------------------|
-| [ ]      | Medium | [Minimum window substring (smallest substring containing all pattern chars)](https://github.com/BHariKrishnaReddy/SystemDesign_DSA/blob/main/DSA_patterns/SlidingWindow/Medimum/MinimumWindowSubstring.java)                | Covering Window, Sliding Frequency              |
+| [x]      | Medium | [Minimum window substring (smallest substring containing all pattern chars)](https://github.com/BHariKrishnaReddy/SystemDesign_DSA/blob/main/DSA_patterns/SlidingWindow/Medimum/MinimumWindowSubstring.java)                | Covering Window, Sliding Frequency              |
 | [ ]      | Medium | Longest substring where vowels appear in non-decreasing order                             | Order-Based Window, Validity Rules              |
 | [ ]      | Medium | Smallest subarray containing at least one of each category label                           | Category Coverage, Shrink for Minimal Window    |
 | [ ]      | Medium | Check if any subarray of length ≥ 2 has duplicate elements                                | Window Validity, Duplicate Detection            |
