@@ -79,14 +79,14 @@ for right in range(len(arr)):                        //right end of window
 | Checkbox | Level | Question                                                                                  | Topics Covered                                  |
 |----------|--------|--------------------------------------------------------------------------------------------|--------------------------------------------------|
 | [x]      | Medium | [Minimum window substring (smallest substring containing all pattern chars)](https://github.com/BHariKrishnaReddy/SystemDesign_DSA/blob/main/DSA_patterns/SlidingWindow/Medimum/MinimumWindowSubstring.java)                | Covering Window, Sliding Frequency              |
-| [ ]      | Medium | Longest substring where vowels appear in non-decreasing order                             | Order-Based Window, Validity Rules              |
-| [ ]      | Medium | Smallest subarray containing at least one of each category label                           | Category Coverage, Shrink for Minimal Window    |
-| [ ]      | Medium | Check if any subarray of length ≥ 2 has duplicate elements                                | Window Validity, Duplicate Detection            |
-| [ ]      | Medium | Count subarrays with sum < K (positive integers)                                          | Sum-Constraint Window                           |
-| [ ]      | Medium | Longest subarray with sum ≤ K (positive integers)                                         | Expand–Shrink, Sum Inequality                   |
-| [ ]      | Medium | Longest subarray with product < K                                                         | Multiplicative Window, Expand–Shrink            |
-| [ ]      | Medium | Count subarrays where no element appears more than twice                                  | Frequency Constraints, Valid Window             |
-| [ ]      | Medium | Longest substring where you can replace ≤ K characters to make all letters same           | Character Replacement, Frequency Max Window     |
+| [ ]      | Medium | [Longest substring where vowels appear in non-decreasing order](https://github.com/BHariKrishnaReddy/SystemDesign_DSA/blob/main/DSA_patterns/SlidingWindow/Medimum/longestVowelNonDecreasingSubstring.java)                             | Order-Based Window, Validity Rules              |
+| [ ]      | Medium | [Smallest subarray containing at least one of each category label](https://github.com/BHariKrishnaReddy/SystemDesign_DSA/blob/main/DSA_patterns/SlidingWindow/Medimum/SmallestSubarrAllCategories.java)                           | Category Coverage, Shrink for Minimal Window    |
+| [ ]      | Medium | [Check if any subarray of length ≥ 2 has duplicate elements](https://github.com/BHariKrishnaReddy/SystemDesign_DSA/blob/main/DSA_patterns/SlidingWindow/Medimum/CheckDuplicateSubarray.java)                                | Window Validity, Duplicate Detection            |
+| [ ]      | Medium | [Count subarrays with sum < K (positive integers)](https://github.com/BHariKrishnaReddy/SystemDesign_DSA/blob/main/DSA_patterns/SlidingWindow/Medimum/countSubarraysWithSumLessthanK.java)                                          | Sum-Constraint Window                           |
+| [self]      | Medium | Longest subarray with sum ≤ K (positive integers)                                         | Expand–Shrink, Sum Inequality                   |
+| [self]      | Medium | Longest subarray with product < K                                                         | Multiplicative Window, Expand–Shrink            |
+| [ ]      | Medium | [Count subarrays where no element appears more than twice](https://github.com/BHariKrishnaReddy/SystemDesign_DSA/blob/main/DSA_patterns/SlidingWindow/Medimum/CountSubarraysNoElementMoreThanTwice.java)                                  | Frequency Constraints, Valid Window             |
+| [ ]      | Medium | [Longest substring where you can replace ≤ K characters to make all letters same](https://github.com/BHariKrishnaReddy/SystemDesign_DSA/blob/main/DSA_patterns/SlidingWindow/Medimum/LongestRepeatingCharacterReplacement.java)           | Character Replacement, Frequency Max Window     |
 
 ---
 
