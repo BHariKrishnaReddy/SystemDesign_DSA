@@ -1,6 +1,6 @@
 # System Design
 
-`if you are already familiar with what SD is you can directly go to` [Design-Patterns](https://github.com/BHariKrishnaReddy/System-design/blob/main/Design-Patterns.md)
+`if you are already familiar with what SD is you can directly go to` [Design-Patterns](https://github.com/BHariKrishnaReddy/SystemDesign_DSA/blob/main/System%20Design/Design-Patterns.md)
 
 The discipline of SD helps to tame the complexity and get the work done.SD aims to build systems that are 
 * Reliable: handles faults, failures, and errors
