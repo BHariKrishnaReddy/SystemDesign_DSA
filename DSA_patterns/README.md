@@ -2,6 +2,10 @@
 
 <h2 align = center >DSA problems don’t have infinite solutions.They reuse ~8–10 core ideas again and again.</h2><br>
 
+Before Getting A head with problem solving You should check the bridge from Java basics to data structures and algorithms (DSA)
+
+
+
 ## 📌 Core DSA Patterns & Techniques
 
 | Topic | Simple Definition | Common Use Cases | Key Idea / Mental Signal |
