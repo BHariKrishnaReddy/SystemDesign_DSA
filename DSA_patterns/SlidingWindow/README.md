@@ -99,3 +99,33 @@ for right in range(len(arr)):                        //right end of window
 | [ ]      | Hard   | [Longest subarray that can be rearranged into a consecutive sequence](https://github.com/BHariKrishnaReddy/SystemDesign_DSA/blob/main/DSA_patterns/SlidingWindow/Hard/LongestConsecutiveRearrangedSubarray.java)                       | Max-Min Window, Duplicate & Range Constraints    |
 | [ ]      | Hard   | [Sliding Window Maximum using deque (max of every window of size K)](https://github.com/BHariKrishnaReddy/SystemDesign_DSA/blob/main/DSA_patterns/SlidingWindow/Hard/SlidingWindowMaximum.java)                        | Monotonic Deque, Fixed-Size Window               |
 | [ ]      | Hard   | [Compute sum(max − min) for every window of size K](https://github.com/BHariKrishnaReddy/SystemDesign_DSA/blob/main/DSA_patterns/SlidingWindow/Hard/SumOfMaxMinusMin.java)                                         | Dual Deque (Max+Min), High-Level Window Pattern  |
+
+
+## 🧠 Sliding Window & Deque — Mental Strings and Pattern Recognition
+
+| Problem / Pattern | Mental String (What to Recall Instantly) | Pattern Recognition Signal |
+|-------------------|------------------------------------------|-----------------------------|
+| **Count subarrays with sum < K (positive)** | “Valid window ⇒ count all suffixes.” | Contiguous + positive numbers + count |
+| **Longest subarray with sum ≤ K (positive)** | “Expand, shrink if needed, track max length.” | Contiguous + positive numbers + longest |
+| **Count subarrays with at most K odds / zeroes** | “Track bad elements; valid window ⇒ count suffixes.” | At most K constraint + counting |
+| **Longest subarray with at most K zeroes** | “Keep window valid, update max length.” | Flip / tolerate K bad elements |
+| **Count subarrays where no element appears more than twice** | “If frequency exceeds limit, shrink; valid ⇒ count suffixes.” | Frequency limit + counting |
+| **Longest substring with at most K distinct characters** | “Too many distinct → shrink; valid ⇒ update max.” | Distinct count constraint |
+| **Minimum window substring** | “Cover all required chars, then shrink to minimum.” | Need full coverage of pattern |
+| **Longest substring with character replacement ≤ K** | “Keep most frequent, replace the rest.” | Replace characters + dominant frequency |
+| **Sliding Window Maximum (size K)** | “Remove smaller from back, read max from front.” | Fixed window + max needed |
+| **Sum of (max − min) for every window of size K** | “Two deques → range in O(1).” | Fixed window + both max and min |
+| **Longest subarray where max − min ≤ X** | “Maintain max and min; shrink when diff breaks.” | Range constraint inside window |
+| **Check duplicate in any subarray (≥ 2)** | “Duplicate inside window ⇒ answer found.” | Uniqueness violation |
+| **Count subarrays with average ≥ T (fixed K)** | “Average ≥ T ⇒ sum ≥ K×T.” | Fixed window + average |
+| **Longest subarray rearrangeable to consecutive** | “Distinct + (max − min + 1 = length).” | Rearrangement + consecutive check |
+
+---
+
+### 🧩 How to use this table
+- **Read the problem**
+- Match the **Pattern Recognition Signal**
+- Recall the **Mental String**
+- The technique chooses itself
+
+> If you can recall the mental string, you already know the solution shape.
