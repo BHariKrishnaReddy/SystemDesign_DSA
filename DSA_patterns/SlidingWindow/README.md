@@ -59,9 +59,11 @@ for right in range(len(arr)):                        //right end of window
 
 ## Questions to Practice (No Duplicates, No Same-Pattern Variants)
 
-## 📅 3-Day Sliding Window Mastery Roadmap
+Practice in [Leet-Code](https://leetcode.com/problem-list/sliding-window/) It can track your progress...
 
-### **Day 1 – Fundamentals (Easy Level)**
+## 📅 7-Day Sliding Window Mastery Roadmap
+
+### **Day 1 & 2  – Fundamentals (Easy Level)**
 
 | Checkbox | Level | Question                                                                                  | Topics Covered                                 |
 |----------|--------|--------------------------------------------------------------------------------------------|-------------------------------------------------|
@@ -74,7 +76,7 @@ for right in range(len(arr)):                        //right end of window
 
 ---
 
-### **Day 2 – Core Interview Problems (Medium Level)**
+### **Day 3 & 4 – Core Interview Problems (Medium Level)**
 
 | Checkbox | Level | Question                                                                                  | Topics Covered                                  |
 |----------|--------|--------------------------------------------------------------------------------------------|--------------------------------------------------|
@@ -90,7 +92,7 @@ for right in range(len(arr)):                        //right end of window
 
 ---
 
-### **Day 3 – Advanced Mastery (Hard Level)**
+### **Day 5 & 6 – Advanced Mastery (Hard Level)**
 
 | Checkbox | Level | Question                                                                                  | Topics Covered                                   |
 |----------|--------|--------------------------------------------------------------------------------------------|---------------------------------------------------|
@@ -98,8 +100,11 @@ for right in range(len(arr)):                        //right end of window
 | [ ]      | Hard   | [Count subarrays whose average ≥ threshold T](https://github.com/BHariKrishnaReddy/SystemDesign_DSA/blob/main/DSA_patterns/SlidingWindow/Hard/CountSubarraysWithAverageAtLeastT.java)                                               | Sum Transformations, Dynamic Window Rules        |
 | [ ]      | Hard   | [Longest subarray that can be rearranged into a consecutive sequence](https://github.com/BHariKrishnaReddy/SystemDesign_DSA/blob/main/DSA_patterns/SlidingWindow/Hard/LongestConsecutiveRearrangedSubarray.java)                       | Max-Min Window, Duplicate & Range Constraints    |
 | [ ]      | Hard   | [Sliding Window Maximum using deque (max of every window of size K)](https://github.com/BHariKrishnaReddy/SystemDesign_DSA/blob/main/DSA_patterns/SlidingWindow/Hard/SlidingWindowMaximum.java)                        | Monotonic Deque, Fixed-Size Window               |
-| [ ]      | Hard   | [Compute sum(max − min) for every window of size K](https://github.com/BHariKrishnaReddy/SystemDesign_DSA/blob/main/DSA_patterns/SlidingWindow/Hard/SumOfMaxMinusMin.java)                                         | Dual Deque (Max+Min), High-Level Window Pattern  |
+| [ ]      | Hard   | [Compute sum(max − min) for every window of size K](https://github.com/BHariKrishnaReddy/SystemDesign_DSA/blob/main/DSA_patterns/SlidingWindow/Hard/SumOfMaxMinusMin.
+java)                                         | Dual Deque (Max+Min), High-Level Window Pattern  |
 
+
+### **Day 7 – Practice  the problems again. **
 
 ## 🧠 Sliding Window & Deque — Mental Strings and Pattern Recognition
 
