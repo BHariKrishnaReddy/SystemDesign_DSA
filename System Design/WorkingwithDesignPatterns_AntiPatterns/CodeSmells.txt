@@ -1,0 +1,13 @@
+Code Smells in SharingApp
+1. Excessive Use of Comments
+Location - saveContact) method of EditContactActivity class.
+Code smell type - Excessive use of comments
+Description - Comments are spread out across multiple lines, even in such place where functionality is clear looking at lines of code.
+Why this is a problem? - Commenting on every block of code to give idea on what code is doing, is failure of developer to expose implementation idea to reader. Any future changes made in code will require updating of comments in 5 different place, and in case any one of the comment goes out of sync, future developers will be looking at outdated comment to understand latest code flow.
+Solution - Make variable name, method name self-explanatory and only use comments to only outline why that approach is used, rather than what approach is used.
+2. Duplicated Code
+Location - loadItems) method of ItemList and loadContacts) method of ContactList. Also, saveltems) method of ItemList and saveContacts) method of Contact list.
+Code smell type - Duplicated Code
+Description - Above mentioned methods has simple functionality of reading file from stream, and appending data to new or existing filestream. But, same action of reading/writing has been done multiple times in each method with only difference in Fi
+Why this is a problem? - Any changes made to storage later on in project requires changing code on storage implementation throughout the project which is time consuming as well as chances are high that certain places might be missed.
+Solution - Making generic storage class that can accept object type and filename and handle reading/storing data from/to filestream.

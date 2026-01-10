@@ -1,5 +1,6 @@
 This repository contains notes created alongside my learning and understanding of:
-* System Design
+* [System Design](https://github.com/BHariKrishnaReddy/SystemDesign_DSA/tree/main/System%20Design)
+    - [Design Patterns](https://github.com/BHariKrishnaReddy/SystemDesign_DSA/blob/main/System%20Design/Design-Patterns.md) - [Coursera Certification](https://coursera.org/share/bd23730cfbd42d35d604678595caef4f)
 * Data Structures & Algorithms (DSA)
 * APIs
 
